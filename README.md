@@ -25,6 +25,12 @@ This script collects system and hardware information from Windows computers and 
 ```
 
 ## Usage 
+1. Create a python environment then activate it: 
+```text
+python -m venv venv
+.\venv\Scripts\Activate
+```
+
 1. Install required libraries
 ```text
 pip install -r requirements.txt

@@ -25,20 +25,27 @@ This script collects system and hardware information from Windows computers and 
 ```
 
 ## Usage 
+1. Install required libraries
+```text
+pip install -r requirements.txt
+```
+2. Run the script: 
+```text
+python script.py
+```
 
-1. Run the script with Python:
-   python inventory_audit.py
+3. Enter your admnet username and password when prompted
 
-2. Enter your admnet username and password when prompted
+4. Select the destination folder from the list provided
 
-3. Select the destination folder from the list provided
-
-4. Script will copy the file to the selected folder and remove the local copy
+5. Script will copy the file to the selected folder and remove the local copy
 
 ## Executable:
 
 To create an executable version of this script:
-pyinstaller --onefile inventory_audit.py
+```text
+pyinstaller --onefile script.py
+```
 
 ## Destination Path:
 

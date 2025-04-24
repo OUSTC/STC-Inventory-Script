@@ -240,9 +240,7 @@ def pushFile(destination, source_file):
 
 
 temp_dir = tempfile.gettempdir()
-output_file = os.path.join(tempfile.gettempdir(), get_serial_number() + ".txt")
-
-
+output_file = os.path.join(tempfile.gettempdir(), get_serial_number() + "-" + pc_name()+ ".txt")
 
 with open(output_file, "w", encoding="utf-8") as f:
     f.write(get_info())
